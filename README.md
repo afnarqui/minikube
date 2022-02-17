@@ -1,5 +1,18 @@
 # minikube
 
+## instalación docker,minikube y kubectl
+
+````bash
+https://www.linuxtechi.com/install-use-docker-on-ubuntu/
+https://www.linuxtechi.com/how-to-install-minikube-on-ubuntu/
+sudo usermod -aG docker $USER && newgrp docker
+git config --global user.name "andres naranjo"
+git config --global user.email afnarqui@hotmail.com
+git clone https://github.com/afnarqui/minikube.git
+````
+
+## comandos kubectl
+
 ````bash
 kubectl version --client
 kubectl run  podtest2 --image=nginx:alpine
